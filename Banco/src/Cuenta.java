@@ -17,6 +17,10 @@ public class Cuenta {
         }
     }
 
+    public void consultarSaldo() {
+        System.out.println("El saldo actual es: " + saldo);
+    }
+
     public double getSaldo() {
         return saldo;
     }
