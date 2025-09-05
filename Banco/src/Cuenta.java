@@ -11,6 +11,12 @@ public class Cuenta {
         }
     }
 
+        public void retirar(double cantidad) {
+        {
+            saldo = saldo - cantidad;
+        }
+    }
+
     public double getSaldo() {
         return saldo;
     }
